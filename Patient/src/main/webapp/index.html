@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Patient Data</title>
+</head>
+<body>
+<h2>Welcome to the Patient Data App</h2>
+
+<nav>
+  <ul>
+    <li>
+      <a href="patientList.html">View the Patient Name List</a>
+    </li>
+    <li>
+      <a href="search.html">Search</a>
+    </li>
+  </ul>
+</nav>
+<hr>
+<h3>Add Patient</h3>
+<form action="addPatient.html" method="get">
+  <text>PREFIX:</text>
+  <input type="text" name="PREFIX" id="PREFIX" required/>
+  <br>
+  <text>First Name:</text>
+  <input type="text" name="First Name" id="First Name" required/>
+  <br>
+  <text>Last Name:</text>
+  <input type="text" name="Last Name" id="Last Name" required/>
+  <br>
+  <text>ID:</text>
+  <input type="text" name="ID" id="ID"/>
+  <br>
+  <text>DRIVERS:</text>
+  <input type="text" name="DRIVERS" id="DRIVERS" />
+  <br>
+  <text>SSN:</text>
+  <input type="text" name="SSN" id="SSN" />
+  <br>
+  <text>PASSPORT:</text>
+  <input type="text" name="PASSPORT" id="PASSPORT" />
+  <br>
+  <text>GENDER:</text>
+  <input type="text" name="GENDER" id="GENDER" required/>
+  <br>
+  <input type="submit" value="Add"/>
+</form>
+</body>
+</html>
